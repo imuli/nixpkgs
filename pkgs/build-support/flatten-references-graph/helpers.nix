@@ -1,10 +1,10 @@
 {
   bash,
   writers,
-  python39Packages
+  python3Packages
 }:
 let
-  pythonPackages = python39Packages;
+  pythonPackages = python3Packages;
   writeCheckedBashBin = name:
     let
       interpreter = "${bash}/bin/bash";

@@ -1,12 +1,12 @@
 {
   bash,
   nix-gitignore,
-  python39Packages,
+  python3Packages,
   writers
 }:
 let
-  helpers = import ./helpers.nix { inherit bash python39Packages writers; };
-  pythonPackages = python39Packages;
+  helpers = import ./helpers.nix { inherit bash python3Packages writers; };
+  pythonPackages = python3Packages;
 
 in pythonPackages.buildPythonApplication {
   version = "0.1.0";
