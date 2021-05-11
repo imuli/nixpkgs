@@ -1,8 +1,3 @@
-# IMPORTANT: Making changes?
-#
-# Validate your changes with python3 ./closure-graph.py --test
-
-
 # Using a simple algorithm, convert the references to a path in to a
 # sorted list of dependent paths based on how often they're referenced
 # and how deep in the tree they live. Equally-"popular" paths are then
